@@ -1,0 +1,3 @@
+fold 1 : healthy audio files
+fold 2 : URTI
+fold 3 : COPD

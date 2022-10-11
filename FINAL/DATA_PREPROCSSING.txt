@@ -1,0 +1,43 @@
+AUDIO  CLASSIFICATION  EDA: visualizing the audio signals from audio files.
+
+ABOUT THE DATASET :
+1.
+ Acquiring the dataset: The database consist of a total of 5.5 hours of recordings containing 6898 respiratory cycles, of whuch 1864 contains crackles, 886 contains wheezes and 506 contains both crackles and wheezes, in 920 annotated audio samples from 126 subjects.Audio files are in .wav extension.
+
+2. 
+Using librosa library:
+This library helps us to work well with the sound dataset , 
+it helps to find out various incites like able to read the signals , finding sample rate , number of channels, etc.
+
+Using scipy:
+It helps us to read the .wav signals.
+
+Using matlplot library:
+  for displaying signals of files we are using matplot library.
+
+3.
+visualising the wave in terms of waveplot
+
+calculating sample rate:
+In audio file the sample rate determines how many times per second a sound is sampled.
+
+usually sample rate is around 44.4 khz but here we get as 22 khz.
+(why librosa if we have more ways to display sample rate)
+in a audio there exist various channels like mono channel and sterio channel , so in other libraries like scipy and all the sample rate would come out to be 44 khz because of no normalization, but in librosa it will try to normalize the sound audios which consist of more than two channels consisting of 2 voices and convert them into a single channel as 22 khz format.
+
+CHECKING THE DATASET IS BALANCED OR NOT 
+CLEARLY OUR DATA SET IS IMBALANCED.
+SO NOW WE NEED TO BALANCE OUR DATASET
+
+
+DATA PREPROCESSING:
+
+BALANCING THE DATASET:
+(HOW) WITH THE HELP OF DATA AUGMENTATION TECHNIQUES LIKE ADDING WHITE NOISE, SHIFTING AUDIO  AND OTHER WAYS  WE GENERATED DUPLICATE DATA SO TO BALANCE OUR DATASET.
+
+AFTER BALANCING OUR DATASET WE HAVE TO PERFORM
+
+
+
+
+
